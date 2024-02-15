@@ -1,0 +1,42 @@
+# Ignorar archivos generados por VS Code
+.vscode/
+
+# Ignorar archivos de configuración de ESLint
+.eslintrc.cjs
+
+# Ignorar archivo de configuración de Prettier
+.prettierrc.json
+
+# Ignorar archivo de configuración de TypeScript
+tsconfig.json
+
+# Ignorar archivo de bloqueo de paquetes de npm
+package-lock.json
+
+# Ignorar archivo de configuración de Vite
+vite.config.js
+
+# Ignorar directorios y archivos generados por Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Ignorar archivos de configuración de Node.js
+*.local
+
+# Ignorar directorios y archivos generados por la compilación
+dist/
+dist-ssr/
+coverage/
+node_modules/
+
+# Ignorar archivos de proyecto específicos
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.env
+
+# Ignorar archivos de TypeScript
+*.tsbuildinfo
